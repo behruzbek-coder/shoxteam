@@ -1,7 +1,7 @@
 <template>
   <div class="qudrat">
     <div>
-      cnhe
+      salom
     </div>
   </div>
 </template>
