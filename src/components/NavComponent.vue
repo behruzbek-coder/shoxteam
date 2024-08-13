@@ -1,8 +1,6 @@
 <template>
   <div class="qudrat">
-    <div>
-      salom
-    </div>
+    
   </div>
 </template>
 
