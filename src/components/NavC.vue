@@ -1,5 +1,5 @@
 <template>
-  <div class="qudrat">
+  <div>
     
   </div>
 </template>
@@ -8,9 +8,5 @@
 </script>
 
 <style lang="scss" scoped>
-.qudrat{
-  div{
-    color: red;
-  }
-}
+
 </style>
