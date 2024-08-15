@@ -1,5 +1,7 @@
 <template>
-<nav-component></nav-component>
+<nav-component>
+    vftcvtygbjynbyyfvgbu
+</nav-component>
 </template>
 
 <script setup>
