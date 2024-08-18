@@ -1,27 +1,29 @@
 <template>
   <div class="container">
-    <div class="main-product-container">
-    <div v-for="product in products" :key="product.id" class="product-item">
-      <div class="top-of-product">
-        <div class="items">
-          <p>Артикул: 515314</p>
-          <h4>{{ product.name }}</h4>
-        </div>
 
-        <img class="heart-icon" src="../assets/image/Vector.svg" />
-      </div>
-      <img :src="product.url" class="product-image" alt="Product Image" />
-      <div class="bottom-of-product">
-        <h2>{{ product.name }}</h2>
-        <div class="prices">
-          <h1 class="seil">-{{ product.seil }}%</h1>
-          <h1 class="oldPrice">{{ product.oldPrice }}</h1>
-          <h1>{{ product.newPrice }}</h1>
+      <div class="main-product-container">
+       
+        <div v-for="product in products" :key="product.id" class="product-item">
+          <div class="top-of-product">
+            <div class="items">
+              <p>Артикул: 515314</p>
+              <h4>{{ product.name }}</h4>
+            </div>
+
+            <img class="heart-icon" src="../assets/image/Vector.svg" />
+          </div>
+          <img :src="product.url" class="product-image" alt="Product Image" />
+          <div class="bottom-of-product">
+            <h2>{{ product.name }}</h2>
+            <div class="prices">
+              <h1 class="seil">-{{ product.seil }}%</h1>
+              <h1 class="oldPrice">{{ product.oldPrice }}</h1>
+              <h1>{{ product.newPrice }}</h1>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  </div>
 
 </template>
 
@@ -57,8 +59,13 @@ onMounted(() => {
 </script>
 
 <style scoped>
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .product-item {
-  margin-bottom: 20px;  
+  margin-bottom: 20px;
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0, 0.5) 0%,
@@ -109,10 +116,10 @@ h4 {
 }
 .main-product-container {
   width: 230px;
-  height: 650px;
+  height: 990px;
   display: grid;
   padding: 20px 0;
-  padding-left: 301px;
+  /* padding-left: 235px;  */
   gap: 24px;
   grid-template-columns: repeat(4, 1fr);
 }
