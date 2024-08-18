@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-import NavComponent from './components/NavComponent.vue';
+import NavComponent from './components/NavC.vue';
 </script>
 
 <style lang="scss" scoped>
