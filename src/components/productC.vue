@@ -5,32 +5,25 @@
       <p>{{ productType }}</p>
       <img src="@/assets/images/Vector.svg" />
     </div>
-    <img :src="imageURL" />
-    
+    <img :src="imageURL" alt="Product Image" />
   </div>
 </template>
     
-    <script>
-export default {
-  name: "ProductComponent",
-  props: {
-    productType: {
-      type: String,
-      default: "none",
-    },
-    articleID: {
-      type: String,
-      default: "none",
-    },
-    imageURL: {
-      type: String,
-      default: "none",
-    },
+<script setup>
+import { defineProps } from "vue";
 
+const props = defineProps({
+  productType: {
+    type: String,
+    default: "none",
   },
-};
+  articleID: {
+    type: String,
+    default: "none",
+  },
+  imageURL: {
+    type: String,
+    default: "none",
+  },
+});
 </script>
-    
-<style scoped>
-</style>
-    
