@@ -77,7 +77,7 @@ nav {
       border: 2px solid #e24c55;
     }
     &:hover span{
-      background: #fff;
+      background: #e24c55;
       color: #e24c55;
     }
     span{
