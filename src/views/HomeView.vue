@@ -1,11 +1,11 @@
 <template>
-<nav-component>
+<SectionComponent>
     vftcvtygbjynbyyfvgbu
-</nav-component>
+</SectionComponent>
 </template>
 
 <script setup>
-import NavComponent from '@/components/NavComponent.vue';
+import SectionComponent from '@/components/SectionComponent.vue';
 </script>
 
 <style lang="scss" scoped>
