@@ -139,6 +139,13 @@ section {
     color: #fff;
     border: none;
     cursor: pointer;
+    transition: 0.8s;
+
+  }
+  button:hover{
+    color:#e24c55;
+    background: #fff;
+    border: 2px solid #e24c55;
   }
 }
 </style>
